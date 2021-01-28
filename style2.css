@@ -1,0 +1,37 @@
+li{
+    padding-bottom: 15px;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+#last{
+    margin-bottom:30%;
+}
+body{
+    background-color:#060606;
+    color:#929292;
+}
+h4{
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    margin-left: 3%;
+    margin-top: 0%;
+    animation: color-ani 8s infinite;
+}
+
+@keyframes color-ani {
+    0% { color: #55a854; }
+    50% { color:#4285f4;}
+    100% { color: #55a854; }
+  }
+a{
+    color:#929292;
+    text-decoration: none;
+}
+a:hover{
+    color:whitesmoke;
+    font-size: 18px;
+}
